@@ -1,0 +1,92 @@
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* chart level style */
+.active {
+  font-weight: bold;
+  fill: #000;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+  font-weight: lighter;
+  fill: #000;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive:hover {
+  fill: #e75480;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  width: 135px;
+  height: 80px;
+  padding: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(128, 6, 27);
+  text-align: center;
+  border: 0;
+  border-radius: 10px;
+}
+
+.circleStyleAge {
+  fill: #1bbe0c;
+  stroke: #094e13;
+}
+
+.circleStylePoverty {
+  fill: #be7b23;
+  stroke: #362608;
+}
+
+.circleStyleIncome {
+  fill: #3027b3;
+  stroke: #1e0a7a;
+}
+
+.labelText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  text-anchor: middle;
+}
+
+.legendText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-anchor: middle;
+  fill: white;
+}
